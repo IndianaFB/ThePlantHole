@@ -53,3 +53,20 @@ nav{
 nav a{
 
 }
+.diary-entry{
+    padding: 2%;
+    background-color: rgb(255, 255, 255, 0.4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+
+    border-top: 2px solid slategray;
+    border-left: 2px solid slategray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+}
+.diary-entry *{
+    margin: .5%;
+}
+.date{
+    text-align: right;
+}
