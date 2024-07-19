@@ -79,5 +79,19 @@ nav a{
 }
 .to-do table {
     text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+.to-do table th, td{
+    padding: 10px;
     width: 70%;
+    border-bottom: 1px solid black;
+
+}
+.to-do table th{
+    height: 50px;
+}
+.to-do tbody tr:hover{
+    background-color: seagreen;
+    color: white;
 }
