@@ -85,11 +85,16 @@ nav a:hover{
     text-decoration: underline;
 }
 .to-do{
+    width:80vw;
     padding: 2%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 15px;
     background-color: mintcream;
 
+    border-top: 2px solid slategray;
+    border-left: 2px solid slategray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
 }
 .to-do table {
     text-align: left;
